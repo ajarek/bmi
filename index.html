@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BMI kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>BMI Kalkulator</h1>
+        <div class="form">
+            <fieldset>
+                <legend>Wzrost w cm.</legend>
+                <input type="number" name="" id="wzrost">
+            </fieldset>
+            <fieldset>
+                <legend>Waga w kg.</legend>
+                <input type="number" name="" id="waga">
+            </fieldset>
+            <button>Wylicz</button>
+            <div class="wynik">0</div>
+        </div>
+
+        <ul aria-label="Przewodnik po wadze BMI:">
+            <li style="color:blue">Niedowaga -  mniej niż 18,6</li>
+            <li style="color:green">Normalny - zakres  18,6 do 24,9</li>
+            <li style="color:red">Nadwaga - powyżej 24,9</li>
+        </ul>
+
+    </div>
+    <div class="logo">
+        <a href="mailto:ajarek@poczta.onet.pl">
+            <img src="logo2.PNG" alt="husky">
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
